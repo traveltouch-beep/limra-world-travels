@@ -34,9 +34,7 @@ export default function Footer() {
               lineHeight: "1.8",
             }}
           >
-            Trusted travel partner since 1995 providing Hajj & Umrah,
-            Flight Tickets, Tours, Visa Services, Hotel Booking,
-            Study Abroad and Overseas Recruitment.
+           Trusted since 1995, Limra World Travels offers Hajj & Umrah, International & Domestic Holiday Packages, Flight Ticket Booking, Visa Assistance, Passport Services, Hotel Reservations, Study Abroad Guidance, Overseas Recruitment and Corporate Travel Solutions.
           </p>
         </div>
 
@@ -90,6 +88,7 @@ export default function Footer() {
           <li>Hotel Booking</li>
           <li>Tour Packages</li>
           <li>Study Abroad</li>
+          
         </ul>
       </div>
 
@@ -107,8 +106,9 @@ export default function Footer() {
         </p>
 
         <p style={{ color: "#cccccc", lineHeight: "2" }}>
-          📞 +91 98405 55649
-        </p>
+  💬 WhatsApp: +91 98405 55649
+</p>
+        
 
         <p style={{ color: "#cccccc", lineHeight: "2" }}>
           ✉️ info@limraworldtravels.com
@@ -135,7 +135,7 @@ export default function Footer() {
         fontSize: "15px",
       }}
     >
-      © 2026 Limra World Travels. All Rights Reserved.
+      © 2026 Limra World Travels | Since 1995 | All Rights Reserved.
     </p>
   </footer>
 );

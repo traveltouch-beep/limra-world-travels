@@ -16,64 +16,64 @@ import {
 export default function Services() {
   const services = [
     {
-      icon: <PlaneTakeoff size={42} color="#D4AF37" />,
+      icon: <PlaneTakeoff size={44} color="#D4AF37" />,
       title: "Hajj & Umrah",
-      desc: "Complete Hajj & Umrah packages including visa, flights, hotels and guided assistance.",
+      desc: "Complete Hajj & Umrah packages including Visa, Flights, Premium Hotels, Transportation and Guided Assistance.",
     },
     {
-      icon: <Plane size={42} color="#D4AF37" />,
+      icon: <Plane size={44} color="#D4AF37" />,
       title: "Flight Tickets",
-      desc: "Domestic & International flight bookings at competitive prices.",
+      desc: "Domestic & International flight bookings at the best available fares.",
     },
     {
-      icon: <Train size={42} color="#D4AF37" />,
-      title: "Train Ticket Booking",
-      desc: "Fast and reliable railway ticket booking across India.",
+      icon: <Train size={44} color="#D4AF37" />,
+      title: "Train Tickets",
+      desc: "Fast, reliable and hassle-free railway ticket booking across India.",
     },
     {
-      icon: <Bus size={42} color="#D4AF37" />,
-      title: "Bus Ticket Booking",
-      desc: "Luxury and budget bus booking for all major destinations.",
+      icon: <Bus size={44} color="#D4AF37" />,
+      title: "Bus Booking",
+      desc: "Luxury and budget bus reservations for major destinations.",
     },
     {
-      icon: <Hotel size={42} color="#D4AF37" />,
+      icon: <Hotel size={44} color="#D4AF37" />,
       title: "Hotel Booking",
-      desc: "Affordable and luxury hotel reservations worldwide.",
+      desc: "Comfortable budget and luxury hotel reservations worldwide.",
     },
     {
-      icon: <BookOpen size={42} color="#D4AF37" />,
+      icon: <BookOpen size={44} color="#D4AF37" />,
       title: "Passport Services",
-      desc: "New Passport, Renewal and Tatkal Passport assistance.",
+      desc: "New Passport, Renewal, Tatkal Passport and documentation assistance.",
     },
     {
-      icon: <Globe2 size={42} color="#D4AF37" />,
+      icon: <Globe2 size={44} color="#D4AF37" />,
       title: "Visa Assistance",
-      desc: "Tourist, Business, Student and Visit Visa processing.",
+      desc: "Tourist, Business, Student, Employment and Visit Visa processing.",
     },
     {
-      icon: <GraduationCap size={42} color="#D4AF37" />,
+      icon: <GraduationCap size={44} color="#D4AF37" />,
       title: "Study Abroad",
-      desc: "Admissions, Student Visa and Overseas Education Consultancy.",
+      desc: "Admissions, Student Visa, University Guidance and Overseas Education.",
     },
     {
-      icon: <Briefcase size={42} color="#D4AF37" />,
+      icon: <Briefcase size={44} color="#D4AF37" />,
       title: "Overseas Recruitment",
-      desc: "International job opportunities with complete recruitment support.",
+      desc: "International employment opportunities with complete recruitment support.",
     },
     {
-      icon: <Building2 size={42} color="#D4AF37" />,
+      icon: <Building2 size={44} color="#D4AF37" />,
       title: "Corporate Travel",
-      desc: "Business travel management and corporate ticketing solutions.",
+      desc: "Professional business travel management and corporate ticketing solutions.",
     },
     {
-      icon: <Handshake size={42} color="#D4AF37" />,
+      icon: <Handshake size={44} color="#D4AF37" />,
       title: "B2B Travel Solutions",
-      desc: "Travel support for travel agents, companies and business partners.",
+      desc: "Travel support and booking solutions for travel agencies and businesses.",
     },
     {
-      icon: <ShieldCheck size={42} color="#D4AF37" />,
+      icon: <ShieldCheck size={44} color="#D4AF37" />,
       title: "Travel Insurance",
-      desc: "Comprehensive domestic and international travel insurance.",
+      desc: "Comprehensive domestic and international travel insurance protection.",
     },
   ];
 
@@ -81,13 +81,13 @@ export default function Services() {
     <section
       id="services"
       style={{
-        background: "#070707",
-        padding: "100px 20px",
+        background: "#050505",
+        padding: "110px 20px",
       }}
     >
       <div
         style={{
-          maxWidth: "1300px",
+          maxWidth: "1320px",
           margin: "auto",
           textAlign: "center",
         }}
@@ -95,39 +95,46 @@ export default function Services() {
         <p
           style={{
             color: "#D4AF37",
-            letterSpacing: "4px",
+            letterSpacing: "5px",
             fontWeight: "bold",
+            textTransform: "uppercase",
           }}
         >
-          OUR SERVICES
+          Our Premium Services
         </p>
 
         <h2
           style={{
             color: "#ffffff",
-            fontSize: "48px",
-            margin: "20px 0",
+            fontSize: "clamp(36px,5vw,54px)",
+            marginTop: "18px",
+            marginBottom: "20px",
           }}
         >
-          One Roof For All Your Travel Needs
+          Everything You Need
+          <br />
+          For A Perfect Journey
         </h2>
 
         <p
           style={{
-            color: "#cccccc",
+            color: "#cfcfcf",
             maxWidth: "850px",
             margin: "0 auto 70px",
-            lineHeight: "1.8",
+            lineHeight: "1.9",
+            fontSize: "18px",
           }}
         >
-          Limra World Travels offers complete travel, passport, visa,
-          education, recruitment and ticketing services under one roof.
+          From Hajj & Umrah to Holiday Packages, Flight Tickets, Passport &
+          Visa Services, Study Abroad, Overseas Recruitment and Corporate
+          Travel, Limra World Travels offers complete travel solutions under one
+          roof.
         </p>
 
         <div
           style={{
             display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
+            gridTemplateColumns: "repeat(auto-fit,minmax(290px,1fr))",
             gap: "30px",
           }}
         >
@@ -135,18 +142,19 @@ export default function Services() {
             <div
               key={service.title}
               style={{
-                background: "#111111",
+                background: "#121212",
                 border: "1px solid rgba(212,175,55,.25)",
-                borderRadius: "20px",
-                padding: "35px",
+                borderRadius: "22px",
+                padding: "38px 30px",
                 textAlign: "center",
-                transition: "0.3s",
+                boxShadow: "0 10px 30px rgba(0,0,0,.35)",
+                transition: ".35s",
               }}
             >
               <div
                 style={{
-                  width: "80px",
-                  height: "80px",
+                  width: "90px",
+                  height: "90px",
                   margin: "0 auto 25px",
                   borderRadius: "50%",
                   display: "flex",
@@ -162,8 +170,8 @@ export default function Services() {
               <h3
                 style={{
                   color: "#D4AF37",
-                  marginBottom: "15px",
-                  fontSize: "24px",
+                  marginBottom: "18px",
+                  fontSize: "26px",
                 }}
               >
                 {service.title}
@@ -172,7 +180,7 @@ export default function Services() {
               <p
                 style={{
                   color: "#cccccc",
-                  lineHeight: "1.8",
+                  lineHeight: "1.9",
                 }}
               >
                 {service.desc}

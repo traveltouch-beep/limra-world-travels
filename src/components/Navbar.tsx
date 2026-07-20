@@ -25,7 +25,8 @@ export default function Navbar() {
         position: "fixed",
         top: 0,
         width: "100%",
-        background: "#000",
+        background: "rgba(0,0,0,0.92)",
+backdropFilter: "blur(12px)",
         borderBottom: "2px solid #D4AF37",
         zIndex: 999,
       }}
@@ -34,7 +35,7 @@ export default function Navbar() {
         style={{
           maxWidth: "1300px",
           margin: "auto",
-          padding: "12px 20px",
+          padding: "12px 25px",
           display: "flex",
           justifyContent: "space-between",
           alignItems: "center",
@@ -52,7 +53,9 @@ export default function Navbar() {
          <h2
   style={{
     color: "#D4AF37",
-    fontSize: "28px",
+    fontSize: "30px",
+letterSpacing: "1px",
+fontFamily: "Cinzel, serif",
     fontWeight: "bold",
     margin: 0,
   }}
@@ -79,10 +82,12 @@ export default function Navbar() {
               key={item.id}
               onClick={() => scrollToSection(item.id)}
               style={{
-                cursor: "pointer",
-                fontWeight: 600,
-                transition: ".3s",
-              }}
+  cursor: "pointer",
+  fontWeight: 600,
+  fontSize: "17px",
+  letterSpacing: "0.5px",
+  transition: ".3s",
+}}
             >
               {item.name}
             </li>

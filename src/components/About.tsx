@@ -54,7 +54,7 @@ export default function About() {
           >
             Limra World Travels has been serving thousands of happy customers
             since 1995. We specialize in Hajj & Umrah packages, Domestic &
-            International Tours, Flight Ticket Booking, Visa Services, Hotel
+            International Tours, Flight Ticket Booking, Passport Assistance, Visa Services, Hotel
             Reservations, Study Abroad and Overseas Recruitment.
           </p>
 

@@ -50,7 +50,7 @@ export default function Hero() {
               textTransform: "uppercase",
             }}
           >
-            Limra World Travels
+           Trusted Since 1995 • Premium Travel Services
           </p>
 
           <h1
@@ -61,10 +61,12 @@ export default function Hero() {
               marginBottom: "25px",
             }}
           >
-            Your Trusted Partner For
+         Explore The World
+<br />
+With Confidence
             <span style={{ color: "#D4AF37" }}>
               {" "}
-              Hajj, Umrah & International Travel
+              Hajj • Umrah • Holidays • Visa
             </span>
           </h1>
 
@@ -77,9 +79,7 @@ export default function Hero() {
               maxWidth: "650px",
             }}
           >
-            We provide Hajj & Umrah Packages, International & Domestic Tours,
-            Flight Tickets, Visa Assistance, Passport Services, Hotel Booking,
-            Study Abroad, Overseas Recruitment and Corporate Travel Solutions.
+            Experience unforgettable journeys with Limra World Travels. We specialize in Hajj & Umrah, Domestic & International Holiday Packages, Flight Ticket Booking, Visa Assistance, Passport Services, Hotel Reservations, Study Abroad Guidance, Overseas Recruitment and Corporate Travel Solutions—delivering comfortable, affordable and memorable travel experiences since 1995.
           </p>
                     <div
             style={{
@@ -106,7 +106,7 @@ export default function Hero() {
               }}
             >
               <Plane size={20} />
-              Book Your Trip
+              Book Your Journey
             </button>
 
             <button
@@ -125,7 +125,16 @@ export default function Hero() {
               Explore Packages
             </button>
           </div>
-
+<p
+  style={{
+    color: "#D4AF37",
+    fontSize: "16px",
+    marginBottom: "30px",
+    fontWeight: "600",
+  }}
+>
+  ★★★★★ Trusted by Thousands of Happy Travelers
+</p>
           <div
             style={{
               display: "flex",
